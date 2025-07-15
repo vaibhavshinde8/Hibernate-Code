@@ -40,6 +40,5 @@ public static void main(String[] args) {
 	transaction.commit();
 	
 	
-	
 }
 }

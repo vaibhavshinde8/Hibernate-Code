@@ -13,9 +13,9 @@ public static void main(String[] args) {
 	
 	Reviews reviews = new Reviews();
 	Reviews reviews2 = entityManager.find(Reviews.class, 1);
-System.out.println(reviews2.getId());
-System.out.println(reviews2.getRating());
-System.out.println(reviews2.getReview());
-System.out.println(reviews2.getProduct());
+	System.out.println(reviews2.getId());
+	System.out.println(reviews2.getRating());
+	System.out.println(reviews2.getReview());
+	System.out.println(reviews2.getProduct());
 }
 }
